@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:backgroundTint="@color/icon_tints"
+            android:src="@drawable/ic_tr_fee"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="افرایش موحودی"
+            android:textColor="@color/title_text"
+            android:layout_margin="@dimen/normal_margin"
+            app:layout_constraintEnd_toStartOf="@+id/img_transaction"
+            app:layout_constraintTop_toTopOf="@+id/img_transaction" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:text="دوستنغعلثغز5متدزا"
+            android:textColor="@color/description_text"
+            app:layout_constraintBottom_toBottomOf="@+id/img_transaction"
+            app:layout_constraintEnd_toStartOf="@+id/img_transaction"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:text="500000"
+            android:textColor="@color/price_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

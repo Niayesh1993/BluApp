@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BluBankSampleApp</string>
+    <string name="home">خانه</string>
+    <string name="box">باکس</string>
+    <string name="entity">موجودی</string>
+    <string name="account_charge">شارژ حساب</string>
+    <string name="e_management">مدیریت مالی</string>
+</resources>

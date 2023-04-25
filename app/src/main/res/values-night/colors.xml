@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_section_text">#E7EAEF</color>
+    <color name="icon_tints">#E7EAEF</color>
+    <color name="background">#1B2028</color>
+    <color name="title_text">#E7EAEF</color>
+    <color name="description_text">#9FABBE</color>
+    <color name="price_text">#E7EAEF</color>
+    <color name="highlights_tint">#154641</color>
+</resources>
